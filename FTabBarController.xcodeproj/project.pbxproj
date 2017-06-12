@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		685CA1881EEE9E5800390A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1871EEE9E5800390A92 /* main.m */; };
+		685CA18B1EEE9E5800390A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA18A1EEE9E5800390A92 /* AppDelegate.m */; };
+		685CA18E1EEE9E5800390A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA18D1EEE9E5800390A92 /* ViewController.m */; };
+		685CA1911EEE9E5800390A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685CA18F1EEE9E5800390A92 /* Main.storyboard */; };
+		685CA1931EEE9E5800390A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685CA1921EEE9E5800390A92 /* Assets.xcassets */; };
+		685CA1961EEE9E5800390A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685CA1941EEE9E5800390A92 /* LaunchScreen.storyboard */; };
+		685CA1A11EEE9E5800390A92 /* FTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1A01EEE9E5800390A92 /* FTabBarControllerTests.m */; };
+		685CA1AC1EEE9E5800390A92 /* FTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1AB1EEE9E5800390A92 /* FTabBarControllerUITests.m */; };
+		685CA1C81EEEA00D00390A92 /* ESTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1BB1EEEA00D00390A92 /* ESTabBar.m */; };
+		685CA1C91EEEA00D00390A92 /* ESTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1BD1EEEA00D00390A92 /* ESTabBarController.m */; };
+		685CA1CA1EEEA00D00390A92 /* ESTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1BF1EEEA00D00390A92 /* ESTabBarItem.m */; };
+		685CA1CB1EEEA00D00390A92 /* ESTabBarItemBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1C11EEEA00D00390A92 /* ESTabBarItemBadgeView.m */; };
+		685CA1CC1EEEA00D00390A92 /* ESTabBarItemContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1C31EEEA00D00390A92 /* ESTabBarItemContainer.m */; };
+		685CA1CD1EEEA00D00390A92 /* ESTabBarItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1C51EEEA00D00390A92 /* ESTabBarItemContentView.m */; };
+		685CA1CE1EEEA00D00390A92 /* ESTabBarItemMoreContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1C71EEEA00D00390A92 /* ESTabBarItemMoreContentView.m */; };
+		685CA1D11EEEA1F200390A92 /* FTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1D01EEEA1F200390A92 /* FTabBarController.m */; };
+		685CA1D41EEEA20500390A92 /* FTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1D31EEEA20500390A92 /* FTabBar.m */; };
+		685CA1D71EEEA21300390A92 /* FTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1D61EEEA21300390A92 /* FTabBarItem.m */; };
+		685CA1DA1EEEA22C00390A92 /* FTabBarItemBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1D91EEEA22C00390A92 /* FTabBarItemBadgeView.m */; };
+		685CA1DD1EEEA2E600390A92 /* FTabBarItemContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1DC1EEEA2E600390A92 /* FTabBarItemContainer.m */; };
+		685CA1E01EEEA32300390A92 /* FTabBarItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 685CA1DF1EEEA32300390A92 /* FTabBarItemContentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		685CA19D1EEE9E5800390A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685CA17B1EEE9E5800390A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685CA1821EEE9E5800390A92;
+			remoteInfo = FTabBarController;
+		};
+		685CA1A81EEE9E5800390A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685CA17B1EEE9E5800390A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685CA1821EEE9E5800390A92;
+			remoteInfo = FTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		685CA1831EEE9E5800390A92 /* FTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685CA1871EEE9E5800390A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		685CA1891EEE9E5800390A92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		685CA18A1EEE9E5800390A92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		685CA18C1EEE9E5800390A92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		685CA18D1EEE9E5800390A92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		685CA1901EEE9E5800390A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685CA1921EEE9E5800390A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685CA1951EEE9E5800390A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685CA1971EEE9E5800390A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685CA19C1EEE9E5800390A92 /* FTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685CA1A01EEE9E5800390A92 /* FTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTabBarControllerTests.m; sourceTree = "<group>"; };
+		685CA1A21EEE9E5800390A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685CA1A71EEE9E5800390A92 /* FTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685CA1AB1EEE9E5800390A92 /* FTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTabBarControllerUITests.m; sourceTree = "<group>"; };
+		685CA1AD1EEE9E5800390A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685CA1BA1EEEA00D00390A92 /* ESTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBar.h; sourceTree = "<group>"; };
+		685CA1BB1EEEA00D00390A92 /* ESTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBar.m; sourceTree = "<group>"; };
+		685CA1BC1EEEA00D00390A92 /* ESTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBarController.h; sourceTree = "<group>"; };
+		685CA1BD1EEEA00D00390A92 /* ESTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBarController.m; sourceTree = "<group>"; };
+		685CA1BE1EEEA00D00390A92 /* ESTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBarItem.h; sourceTree = "<group>"; };
+		685CA1BF1EEEA00D00390A92 /* ESTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBarItem.m; sourceTree = "<group>"; };
+		685CA1C01EEEA00D00390A92 /* ESTabBarItemBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBarItemBadgeView.h; sourceTree = "<group>"; };
+		685CA1C11EEEA00D00390A92 /* ESTabBarItemBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBarItemBadgeView.m; sourceTree = "<group>"; };
+		685CA1C21EEEA00D00390A92 /* ESTabBarItemContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBarItemContainer.h; sourceTree = "<group>"; };
+		685CA1C31EEEA00D00390A92 /* ESTabBarItemContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBarItemContainer.m; sourceTree = "<group>"; };
+		685CA1C41EEEA00D00390A92 /* ESTabBarItemContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBarItemContentView.h; sourceTree = "<group>"; };
+		685CA1C51EEEA00D00390A92 /* ESTabBarItemContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBarItemContentView.m; sourceTree = "<group>"; };
+		685CA1C61EEEA00D00390A92 /* ESTabBarItemMoreContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBarItemMoreContentView.h; sourceTree = "<group>"; };
+		685CA1C71EEEA00D00390A92 /* ESTabBarItemMoreContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBarItemMoreContentView.m; sourceTree = "<group>"; };
+		685CA1CF1EEEA1F200390A92 /* FTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTabBarController.h; sourceTree = "<group>"; };
+		685CA1D01EEEA1F200390A92 /* FTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTabBarController.m; sourceTree = "<group>"; };
+		685CA1D21EEEA20500390A92 /* FTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTabBar.h; sourceTree = "<group>"; };
+		685CA1D31EEEA20500390A92 /* FTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTabBar.m; sourceTree = "<group>"; };
+		685CA1D51EEEA21300390A92 /* FTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTabBarItem.h; sourceTree = "<group>"; };
+		685CA1D61EEEA21300390A92 /* FTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTabBarItem.m; sourceTree = "<group>"; };
+		685CA1D81EEEA22C00390A92 /* FTabBarItemBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTabBarItemBadgeView.h; sourceTree = "<group>"; };
+		685CA1D91EEEA22C00390A92 /* FTabBarItemBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTabBarItemBadgeView.m; sourceTree = "<group>"; };
+		685CA1DB1EEEA2E600390A92 /* FTabBarItemContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTabBarItemContainer.h; sourceTree = "<group>"; };
+		685CA1DC1EEEA2E600390A92 /* FTabBarItemContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTabBarItemContainer.m; sourceTree = "<group>"; };
+		685CA1DE1EEEA32300390A92 /* FTabBarItemContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTabBarItemContentView.h; sourceTree = "<group>"; };
+		685CA1DF1EEEA32300390A92 /* FTabBarItemContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTabBarItemContentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685CA1801EEE9E5800390A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685CA1991EEE9E5800390A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685CA1A41EEE9E5800390A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685CA17A1EEE9E5800390A92 = {
+			isa = PBXGroup;
+			children = (
+				685CA1851EEE9E5800390A92 /* FTabBarController */,
+				685CA19F1EEE9E5800390A92 /* FTabBarControllerTests */,
+				685CA1AA1EEE9E5800390A92 /* FTabBarControllerUITests */,
+				685CA1841EEE9E5800390A92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685CA1841EEE9E5800390A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685CA1831EEE9E5800390A92 /* FTabBarController.app */,
+				685CA19C1EEE9E5800390A92 /* FTabBarControllerTests.xctest */,
+				685CA1A71EEE9E5800390A92 /* FTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685CA1851EEE9E5800390A92 /* FTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				685CA1B91EEEA00D00390A92 /* Sources */,
+				685CA1891EEE9E5800390A92 /* AppDelegate.h */,
+				685CA18A1EEE9E5800390A92 /* AppDelegate.m */,
+				685CA18C1EEE9E5800390A92 /* ViewController.h */,
+				685CA18D1EEE9E5800390A92 /* ViewController.m */,
+				685CA18F1EEE9E5800390A92 /* Main.storyboard */,
+				685CA1921EEE9E5800390A92 /* Assets.xcassets */,
+				685CA1941EEE9E5800390A92 /* LaunchScreen.storyboard */,
+				685CA1971EEE9E5800390A92 /* Info.plist */,
+				685CA1861EEE9E5800390A92 /* Supporting Files */,
+			);
+			path = FTabBarController;
+			sourceTree = "<group>";
+		};
+		685CA1861EEE9E5800390A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				685CA1871EEE9E5800390A92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		685CA19F1EEE9E5800390A92 /* FTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				685CA1A01EEE9E5800390A92 /* FTabBarControllerTests.m */,
+				685CA1A21EEE9E5800390A92 /* Info.plist */,
+			);
+			path = FTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		685CA1AA1EEE9E5800390A92 /* FTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				685CA1AB1EEE9E5800390A92 /* FTabBarControllerUITests.m */,
+				685CA1AD1EEE9E5800390A92 /* Info.plist */,
+			);
+			path = FTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		685CA1B91EEEA00D00390A92 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				685CA1BA1EEEA00D00390A92 /* ESTabBar.h */,
+				685CA1BB1EEEA00D00390A92 /* ESTabBar.m */,
+				685CA1BC1EEEA00D00390A92 /* ESTabBarController.h */,
+				685CA1BD1EEEA00D00390A92 /* ESTabBarController.m */,
+				685CA1BE1EEEA00D00390A92 /* ESTabBarItem.h */,
+				685CA1BF1EEEA00D00390A92 /* ESTabBarItem.m */,
+				685CA1C01EEEA00D00390A92 /* ESTabBarItemBadgeView.h */,
+				685CA1C11EEEA00D00390A92 /* ESTabBarItemBadgeView.m */,
+				685CA1C21EEEA00D00390A92 /* ESTabBarItemContainer.h */,
+				685CA1C31EEEA00D00390A92 /* ESTabBarItemContainer.m */,
+				685CA1C41EEEA00D00390A92 /* ESTabBarItemContentView.h */,
+				685CA1C51EEEA00D00390A92 /* ESTabBarItemContentView.m */,
+				685CA1C61EEEA00D00390A92 /* ESTabBarItemMoreContentView.h */,
+				685CA1C71EEEA00D00390A92 /* ESTabBarItemMoreContentView.m */,
+				685CA1CF1EEEA1F200390A92 /* FTabBarController.h */,
+				685CA1D01EEEA1F200390A92 /* FTabBarController.m */,
+				685CA1D21EEEA20500390A92 /* FTabBar.h */,
+				685CA1D31EEEA20500390A92 /* FTabBar.m */,
+				685CA1D51EEEA21300390A92 /* FTabBarItem.h */,
+				685CA1D61EEEA21300390A92 /* FTabBarItem.m */,
+				685CA1D81EEEA22C00390A92 /* FTabBarItemBadgeView.h */,
+				685CA1D91EEEA22C00390A92 /* FTabBarItemBadgeView.m */,
+				685CA1DB1EEEA2E600390A92 /* FTabBarItemContainer.h */,
+				685CA1DC1EEEA2E600390A92 /* FTabBarItemContainer.m */,
+				685CA1DE1EEEA32300390A92 /* FTabBarItemContentView.h */,
+				685CA1DF1EEEA32300390A92 /* FTabBarItemContentView.m */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685CA1821EEE9E5800390A92 /* FTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685CA1B01EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarController" */;
+			buildPhases = (
+				685CA17F1EEE9E5800390A92 /* Sources */,
+				685CA1801EEE9E5800390A92 /* Frameworks */,
+				685CA1811EEE9E5800390A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTabBarController;
+			productName = FTabBarController;
+			productReference = 685CA1831EEE9E5800390A92 /* FTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685CA19B1EEE9E5800390A92 /* FTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685CA1B31EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarControllerTests" */;
+			buildPhases = (
+				685CA1981EEE9E5800390A92 /* Sources */,
+				685CA1991EEE9E5800390A92 /* Frameworks */,
+				685CA19A1EEE9E5800390A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685CA19E1EEE9E5800390A92 /* PBXTargetDependency */,
+			);
+			name = FTabBarControllerTests;
+			productName = FTabBarControllerTests;
+			productReference = 685CA19C1EEE9E5800390A92 /* FTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685CA1A61EEE9E5800390A92 /* FTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685CA1B61EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarControllerUITests" */;
+			buildPhases = (
+				685CA1A31EEE9E5800390A92 /* Sources */,
+				685CA1A41EEE9E5800390A92 /* Frameworks */,
+				685CA1A51EEE9E5800390A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685CA1A91EEE9E5800390A92 /* PBXTargetDependency */,
+			);
+			name = FTabBarControllerUITests;
+			productName = FTabBarControllerUITests;
+			productReference = 685CA1A71EEE9E5800390A92 /* FTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685CA17B1EEE9E5800390A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Fmyz;
+				TargetAttributes = {
+					685CA1821EEE9E5800390A92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					685CA19B1EEE9E5800390A92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 685CA1821EEE9E5800390A92;
+					};
+					685CA1A61EEE9E5800390A92 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 685CA1821EEE9E5800390A92;
+					};
+				};
+			};
+			buildConfigurationList = 685CA17E1EEE9E5800390A92 /* Build configuration list for PBXProject "FTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685CA17A1EEE9E5800390A92;
+			productRefGroup = 685CA1841EEE9E5800390A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685CA1821EEE9E5800390A92 /* FTabBarController */,
+				685CA19B1EEE9E5800390A92 /* FTabBarControllerTests */,
+				685CA1A61EEE9E5800390A92 /* FTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685CA1811EEE9E5800390A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685CA1961EEE9E5800390A92 /* LaunchScreen.storyboard in Resources */,
+				685CA1931EEE9E5800390A92 /* Assets.xcassets in Resources */,
+				685CA1911EEE9E5800390A92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685CA19A1EEE9E5800390A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685CA1A51EEE9E5800390A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685CA17F1EEE9E5800390A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685CA1CC1EEEA00D00390A92 /* ESTabBarItemContainer.m in Sources */,
+				685CA1CD1EEEA00D00390A92 /* ESTabBarItemContentView.m in Sources */,
+				685CA18E1EEE9E5800390A92 /* ViewController.m in Sources */,
+				685CA1C81EEEA00D00390A92 /* ESTabBar.m in Sources */,
+				685CA1DA1EEEA22C00390A92 /* FTabBarItemBadgeView.m in Sources */,
+				685CA1CE1EEEA00D00390A92 /* ESTabBarItemMoreContentView.m in Sources */,
+				685CA18B1EEE9E5800390A92 /* AppDelegate.m in Sources */,
+				685CA1881EEE9E5800390A92 /* main.m in Sources */,
+				685CA1CA1EEEA00D00390A92 /* ESTabBarItem.m in Sources */,
+				685CA1CB1EEEA00D00390A92 /* ESTabBarItemBadgeView.m in Sources */,
+				685CA1E01EEEA32300390A92 /* FTabBarItemContentView.m in Sources */,
+				685CA1D11EEEA1F200390A92 /* FTabBarController.m in Sources */,
+				685CA1D71EEEA21300390A92 /* FTabBarItem.m in Sources */,
+				685CA1DD1EEEA2E600390A92 /* FTabBarItemContainer.m in Sources */,
+				685CA1D41EEEA20500390A92 /* FTabBar.m in Sources */,
+				685CA1C91EEEA00D00390A92 /* ESTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685CA1981EEE9E5800390A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685CA1A11EEE9E5800390A92 /* FTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685CA1A31EEE9E5800390A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685CA1AC1EEE9E5800390A92 /* FTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685CA19E1EEE9E5800390A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685CA1821EEE9E5800390A92 /* FTabBarController */;
+			targetProxy = 685CA19D1EEE9E5800390A92 /* PBXContainerItemProxy */;
+		};
+		685CA1A91EEE9E5800390A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685CA1821EEE9E5800390A92 /* FTabBarController */;
+			targetProxy = 685CA1A81EEE9E5800390A92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		685CA18F1EEE9E5800390A92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685CA1901EEE9E5800390A92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685CA1941EEE9E5800390A92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685CA1951EEE9E5800390A92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685CA1AE1EEE9E5800390A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685CA1AF1EEE9E5800390A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685CA1B11EEE9E5800390A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FSeriesA.FTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		685CA1B21EEE9E5800390A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FSeriesA.FTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		685CA1B41EEE9E5800390A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FSeriesA.FTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTabBarController.app/FTabBarController";
+			};
+			name = Debug;
+		};
+		685CA1B51EEE9E5800390A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FSeriesA.FTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTabBarController.app/FTabBarController";
+			};
+			name = Release;
+		};
+		685CA1B71EEE9E5800390A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FSeriesA.FTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTabBarController;
+			};
+			name = Debug;
+		};
+		685CA1B81EEE9E5800390A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FSeriesA.FTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685CA17E1EEE9E5800390A92 /* Build configuration list for PBXProject "FTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685CA1AE1EEE9E5800390A92 /* Debug */,
+				685CA1AF1EEE9E5800390A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685CA1B01EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685CA1B11EEE9E5800390A92 /* Debug */,
+				685CA1B21EEE9E5800390A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		685CA1B31EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685CA1B41EEE9E5800390A92 /* Debug */,
+				685CA1B51EEE9E5800390A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		685CA1B61EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685CA1B71EEE9E5800390A92 /* Debug */,
+				685CA1B81EEE9E5800390A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685CA17B1EEE9E5800390A92 /* Project object */;
+}
