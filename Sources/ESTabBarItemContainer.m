@@ -32,6 +32,7 @@
     [super layoutSubviews];
     for (UIView *subview in self.subviews) {
         if ([subview isKindOfClass:[ESTabBarItemContentView class]]) {
+//             subview.frame = CGRect.init(x: subview.insets.left, y: subview.insets.top, width: bounds.size.width - subview.insets.left - subview.insets.right, height: bounds.size.height - subview.insets.top - subview.insets.bottom)
             [(ESTabBarItemContentView *)subview updateLayout];
         }
     }

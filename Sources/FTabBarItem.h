@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class FTabBarItemContentView;
+
 @interface FTabBarItem : UITabBarItem
+
+@property (strong, nonatomic) FTabBarItemContentView *contentView;
+
+- (instancetype)initWithContentView:(FTabBarItemContentView *)contentView title:(NSString *)title image:(UIImage *)image selectedImage:(UIImage *)selectedImage tag:(NSInteger)tag;
 
 @end

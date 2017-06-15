@@ -55,11 +55,11 @@
 - (void)highlightWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
 - (void)dehighlightWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
 - (void)badgeChangedWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
-- (void)selectAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
-- (void)deselectAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
-- (void)reselectAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
-- (void)highlightAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
-- (void)dehighlightAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
-- (void)badgeChangedAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
+//- (void)selectAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
+//- (void)deselectAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
+//- (void)reselectAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
+//- (void)highlightAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
+//- (void)dehighlightAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
+//- (void)badgeChangedAnimationWithAnimated:(BOOL)animated completion:(void (^)(void))completion;
 
 @end

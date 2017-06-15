@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol FTabBarItemContainerDelegate;
 @interface FTabBarItemContainer : UIControl
+
+- (instancetype)initWithTarget:(id<FTabBarItemContainerDelegate>)target tag:(NSInteger)tag;
+
+@end
+
+
+@protocol FTabBarItemContainerDelegate <NSObject>
+
+@optional
+- (void)selectAction:(FTabBarItemContainer *)container;
+
+- (void)highlightAction:(FTabBarItemContainer *)container;
+
+- (void)dehighlightAction:(FTabBarItemContainer *)container;
 
 @end

@@ -11,3 +11,17 @@
 @interface FTabBarController : UITabBarController
 
 @end
+
+
+
+@interface FTabBarController (MutableViewControllers)
+
+- (void)addViewController:(UIViewController *)viewController animated:(BOOL)animated;
+
+- (void)insertViewController:(UIViewController *)viewController atIndex:(NSInteger)index animated:(BOOL)animated;
+
+- (void)removeViewController:(UIViewController *)viewController animated:(BOOL)animated;
+
+- (void)removeViewControllerAtIndex:(NSInteger)index animated:(BOOL)animated;
+
+@end

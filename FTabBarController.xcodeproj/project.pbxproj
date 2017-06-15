@@ -203,12 +203,12 @@
 				685CA1D31EEEA20500390A92 /* FTabBar.m */,
 				685CA1D51EEEA21300390A92 /* FTabBarItem.h */,
 				685CA1D61EEEA21300390A92 /* FTabBarItem.m */,
+				685CA1DE1EEEA32300390A92 /* FTabBarItemContentView.h */,
+				685CA1DF1EEEA32300390A92 /* FTabBarItemContentView.m */,
 				685CA1D81EEEA22C00390A92 /* FTabBarItemBadgeView.h */,
 				685CA1D91EEEA22C00390A92 /* FTabBarItemBadgeView.m */,
 				685CA1DB1EEEA2E600390A92 /* FTabBarItemContainer.h */,
 				685CA1DC1EEEA2E600390A92 /* FTabBarItemContainer.m */,
-				685CA1DE1EEEA32300390A92 /* FTabBarItemContentView.h */,
-				685CA1DF1EEEA32300390A92 /* FTabBarItemContentView.m */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -595,6 +595,7 @@
 				685CA1B21EEE9E5800390A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		685CA1B31EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +604,7 @@
 				685CA1B51EEE9E5800390A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		685CA1B61EEE9E5800390A92 /* Build configuration list for PBXNativeTarget "FTabBarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +613,7 @@
 				685CA1B81EEE9E5800390A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
